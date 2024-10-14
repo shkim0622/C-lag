@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/suhyeon/work/ll_ex2/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+APPEND	myapp.h	/^#define APPEND /;"	d
+DELETE	myapp.h	/^#define DELETE	/;"	d
+FAIL	common.h	/^#define FAIL /;"	d
+FALSE	common.h	/^#define FALSE /;"	d
+SEARCH	myapp.h	/^#define SEARCH /;"	d
+SUCCESS	common.h	/^#define SUCCESS /;"	d
+TRUE	common.h	/^#define TRUE /;"	d
+_COMMON_H	common.h	/^#define _COMMON_H$/;"	d
+_MYAPP_H	myapp.h	/^#define _MYAPP_H$/;"	d
+_MYLIST_H	mylist.h	/^#define _MYLIST_H$/;"	d
+_Node	mylist.c	/^typedef struct _Node {$/;"	s	file:
+_mylist_make_new_node	mylist.c	/^node *_mylist_make_new_node(int data) {$/;"	f	typeref:typename:node *
+data	mylist.c	/^    int data;$/;"	m	struct:_Node	typeref:typename:int	file:
+do_append	myapp.c	/^void do_append() {$/;"	f	typeref:typename:void
+do_cleanup	myapp.c	/^void do_cleanup() {$/;"	f	typeref:typename:void
+do_delete	myapp.c	/^void do_delete()	{$/;"	f	typeref:typename:void
+do_init	myapp.c	/^void do_init() {$/;"	f	typeref:typename:void
+do_search	myapp.c	/^void do_search() {$/;"	f	typeref:typename:void
+main	main.c	/^int main() {$/;"	f	typeref:typename:int
+mylist_append	mylist.c	/^int mylist_append(int data) {$/;"	f	typeref:typename:int
+mylist_cleanup	mylist.c	/^void mylist_cleanup() {$/;"	f	typeref:typename:void
+mylist_delete	mylist.c	/^int mylist_delete(int data)	{$/;"	f	typeref:typename:int
+mylist_init	mylist.c	/^int mylist_init() {$/;"	f	typeref:typename:int
+mylist_print	mylist.c	/^void mylist_print() {$/;"	f	typeref:typename:void
+mylist_search	mylist.c	/^int mylist_search(int data) {$/;"	f	typeref:typename:int
+node	mylist.c	/^} node;$/;"	t	typeref:struct:_Node	file:
+pnode	mylist.c	/^    node *pnode;$/;"	m	struct:_Node	typeref:typename:node *	file:
+proot	mylist.c	/^node *proot;$/;"	v	typeref:typename:node *
